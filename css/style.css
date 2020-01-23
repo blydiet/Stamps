@@ -12,6 +12,12 @@
   a {
       text-decoration: none;
   }
+  p {
+    margin: 0.75rem 0;
+  }
+  ul {
+    list-style: none;
+  }
   h1 {
     font-size: 3em;
   }
@@ -33,6 +39,31 @@
     padding-left: 2rem;
 }
   
+#navBar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  margin: 0.75rem;
+  z-index: 1;
+  justify-content: space-between;
+  
+}
+
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  li a {
+    padding: 0.75rem;
+    color: rgb(34, 33, 33);
+  }
+  #logo img {
+     height: 1.5rem;
+}
+a:hover{
+  background-color: rgba(168, 224, 224, 0.8);
+  border-radius: 15px;
+}
   #showCase {
       background: #333 url("/css/images/Person-Holding-a-Brown-Stamp.jpg")
       no-repeat center center/cover;
@@ -56,38 +87,6 @@
   }
  
 
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin-left: 4.5rem;
-    margin-right: 5rem;
-    width: 65rem;
-    z-index: 1;
-    position: fixed;
-    
-  }
-  nav {
-    top: 0;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  nav .nav-item a {
-    font-size: 1rem;
-    color: #fff;
-    text-decoration: none;
-    padding: 0.75rem;
-    
-  }
-  header .logo img {
-    padding-top: 0.95rem;
-    padding-bottom: 0.2rem;
-    padding-left: 1.5rem;
-     height: 2.65rem;
-}
 #contact {
     display: flex;
 }
