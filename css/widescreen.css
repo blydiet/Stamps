@@ -1,6 +1,7 @@
-.contact-form{
+#contact #mission,.contact-form{
     flex: 2;
 }
+
 li a {
     padding: 0.5rem;
     color: rgb(105, 104, 104);

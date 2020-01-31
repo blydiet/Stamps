@@ -3,6 +3,14 @@
     padding: 0.75rem;
     color: rgb(53, 51, 51);
   }
+  #logo img {
+    height: 1rem;
+}
+li a {
+  padding: 0.2rem;
+  color: rgb(34, 33, 33);
+  font-size: smaller;
+}
   #contact #mission,.contact-form{
     flex: 2;
  
@@ -23,8 +31,6 @@
     width: 100%;
 }
 .border{
-    background-color: rgba(250, 253, 250, 0.3);
-   border: 5px  solid rgba(250, 253, 250, 0.5);
     margin-left: 2rem;
     border-radius: 5px;
     margin-right: 10rem;
@@ -39,4 +45,25 @@ section h3 {
   h1{
     font-size: 1em;
 }
+
+#main-fotter{
+  flex-direction: column-reverse;
+  padding: 0.5rem;
+  margin-top: 1px;
+  
+  
+}
+#main-fotter nav a {
+  margin-right: 3rem;
+  margin-bottom: 1rem; 
+  color: #333;
+}
+#main-fotter p {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  color: #333;
+}
+
+
 }

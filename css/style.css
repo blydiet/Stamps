@@ -64,7 +64,7 @@ a:hover{
   background-color: rgba(168, 224, 224, 0.8);
   border-radius: 15px;
 }
-  #showCase {
+#showCase {
       background: #333 url("/css/images/Person-Holding-a-Brown-Stamp.jpg")
       no-repeat center center/cover;
       height: 100vh;
@@ -135,6 +135,9 @@ a:hover{
     color: #333;
 }
 #main-fotter nav a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
     margin-right: 3rem;
     color: #333;
 }
