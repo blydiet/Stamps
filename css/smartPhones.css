@@ -1,6 +1,5 @@
 
 @media(max-width: 500px){
-
   #logo img {
     height: 1rem;
 }
@@ -56,4 +55,5 @@ section h3 {
   padding-top: 1rem;
   font-size: 1.1rem;
   color:  #446190;
+}
 }
